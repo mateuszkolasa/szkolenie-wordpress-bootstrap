@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+
+h1 {
+    width: 100%;
+    background: url('img/header.png') no-repeat bottom center;
+    text-align: center;
+    color: #781a1a;
+    font-size: 16pt; 
+    font-style: italic;
+    margin: 5px 0;
+    padding: 0 0 6px 0;
+}
+
+/* Rotator */
+.rotator {
+    margin-bottom: 20px;
+}
+
+.carousel {
+    width: 980px;
+    backgroound: none;
+    margin: 0 auto;
+}
+
+.carousel:hover .carousel-control {
+    display: block;
+}
+
+.carousel-control {
+    background: none !important;
+}
+
+.carousel .left, .carousel .right {
+    background: none;
+    /*display: none !important;*/
+}
+
+.carousel-control a:hover {
+    background: none;
+}
+
+.carousel-control span {
+    border-radius: 50px;
+    background: #fff;
+    padding: 30px;
+}
+
+.carousel-control .icon-prev:before, .carousel-control .icon-next:before {
+    content: " " !important;
+}
+
+.left span {
+    background: url('../img/strzalka.png') no-repeat 2px 2px !important;
+}
+
+.right span {
+    background: url('../img/next.png') no-repeat 2px 2px !important;
+}
+
+/* LeftMenu */
+.left-menu {
+	border-radius: 5px;
+	background: #600;
+	margin: 5px;
+	padding: 6px 0;
+}
+
+.left-menu .dropdown {
+	margin: 0;
+}
+
+.left-menu a:hover, .left-menu a:focus {
+	border-radius: 0;
+	background: #600D0D url('img/gradient-menu.png') repeat-x 0 bottom !important;
+}
+
+.left-menu .active a {
+	background-color: none;
+    background: #600D0D url('img/gradient-menu.png') repeat-x 0 bottom !important;
+}
+
+.left-menu li:first-child a {
+    border-top: 0 !important;
+}
+
+/* Treść */
+h2 {
+    width: 100%;
+    border-bottom: 1px solid #f0e9df;
+    color: #781a1a;
+    font-size: 14pt;
+    margin: 20px 0 10px 0;
+}
+
+.content h3 {
+    width: 100%;
+    font-size: 13pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.content h2:first-child {
+    background: red;
+    margin: 0 0 10px 0 !important; 
+}
+
+.content .floating {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.content .center-img {
+	text-align: center;
+    margin: 20px auto;
+}
+
+/* Gallery */
+.gallery {
+    text-align: cetner;
+}
+
+.gallery-cell {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery-photo {
+    max-width: 210px;
+    max-height: 145px;
+    border: 1px solid #eee;
+    margin: auto;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+	border-top: 1px solid #cdc6bf;
+	background: #e5ded4;
+	color: #5a4a3c;
+	text-align: center;
+    margin-top: -100px;
+    padding-top: 20px;
+    position: relative;
+    clear: both;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+    background: none !important;	
+}
